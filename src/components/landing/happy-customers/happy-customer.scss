@@ -1,0 +1,50 @@
+.haapy-customers {
+    padding: 64px 0 80px;
+    background: var(--Linear, linear-gradient(91deg, #DD6080 4.08%, #F7A55C 106.84%));
+
+    .font-podka {font-size: 40px; color: var(--white); margin: 0;}
+    h5 {font-size: 20px; color: var(--white); font-weight: 400; margin: 20px 0 40px}
+
+    @media screen and (max-width: 1280px) {
+        .font-podka {font-size: 24px;}
+        h5 {font-size: 18px;}
+    }
+    @media screen and (max-width: 676px) {
+        h5 {font-size: 16px;}
+    }
+}
+
+.customer-slider-wapper {
+    .slick-slider {padding-bottom: 40px;}
+    .card-item {
+        text-align: center;
+        .content-box {
+            position: relative;
+            border-radius: 10px;
+            background: #fff;
+            min-height: 19px;
+            padding: 25px;
+            margin: 10px 10px 30px 10px;
+            &::after {
+                content: ''; position: absolute; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px; border-top: 12px solid #fff; border-left: 12px solid transparent; border-right: 12px solid transparent;
+            }
+        }
+
+        p {font-size: 10px; font-weight: 400;}
+
+        .customer-name {font-size: 18px; font-weight: 500; color: var(--white);}
+    }
+
+    .slick-dots {
+        li {
+            margin: 0;
+            button {
+                padding: 0; width: 8px; height: 8px; border-radius: 100%; background-color: var(--black); border: 2px solid var(--black);
+                &::before {display: none;}
+            }
+            &.slick-active {
+                button {background-color: transparent; width: 11px; height: 11px;}
+            }
+        }
+    }
+}

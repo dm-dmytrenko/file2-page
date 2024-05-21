@@ -1,0 +1,22 @@
+.fee-bouns-section {
+    padding: 70px 0 110px; background-color: #FFEBD9;
+
+    .grid-row {display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 30px;}
+
+    .font-podka {font-size: 32px; color: #000; margin: 0 0 19px;}
+    h5 {font-size: 20px; color: #4F4F4F; font-weight: 600; margin: 0 0 19px;}
+    p {font-size: 16px; color: #4F4F4F; margin: 0;}
+
+    @media screen and (max-width: 991px) {
+        .grid-row {grid-template-columns: auto; margin-bottom: 40px;}
+
+        img {width: 100%;}
+    }
+    @media screen and (max-width: 676px) {
+        padding: 40px 0;
+
+        .font-podka {font-size: 24px;}
+        h5 {font-size: 16px; font-weight: 400;}
+        p {font-size: 14px;}
+    }
+}

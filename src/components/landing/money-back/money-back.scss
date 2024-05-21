@@ -1,0 +1,29 @@
+.money-back-section {
+    padding: 80px 0;
+
+    .grid-row {
+        display: grid; grid-template-columns: auto 560px; grid-gap: 60px;
+    }
+
+    .font-podka  {font-size: 24px; margin: 0 0 22px; color: #333;}
+    p {font-size: 16px; color: #4F4F4F; font-weight: 400;}
+
+    @media screen and (max-width: 1280px) {
+        .grid-row {grid-template-columns: 1fr 500px;}
+    }
+    @media screen and (max-width:991px) {
+        padding: 40px 0;
+
+        .grid-row {grid-template-columns: auto; grid-gap: 30px;}
+        .img {text-align: center;}
+    }
+    @media screen and (max-width:991px) {
+        .img {max-width: 60%; margin: auto;}
+    }
+    @media screen and (max-width:676px) {
+        .img {max-width: 80%; margin: auto;}
+        .font-podka  {font-size: 20px}
+        p {font-size: 14px;}
+        
+    }
+}

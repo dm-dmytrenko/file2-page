@@ -1,0 +1,29 @@
+.personal-detail-page {
+    padding: 40px 0; background-color: #FCFCFC;
+
+    .row * {font-size: 13px !important;}
+    
+    .container-sm {max-width: 800px;}
+
+    .page-title {font-size: 24px; font-style: normal; font-weight: 600; line-height: 24px; letter-spacing: 0.2;}
+
+    hr {background: #D7D7D7 !important; opacity: 1;}
+
+    .form-check {
+        label {color: #637381; font-size: 13px; font-weight: 400;}
+    }
+
+    textarea.form-control-custom {
+        min-height: 150px;resize: none;
+    }
+
+    .react-select-2 {
+        min-width: 250px;
+        .css-13qlugu-control,
+        .css-1jy94s1-control {filter: none !important; border-radius: 8px; border-color: #D0D5DD !important;}
+    }
+
+    @media screen and (max-width: 676px) {
+        .react-select-2 {width: 100%;}   
+    }
+}

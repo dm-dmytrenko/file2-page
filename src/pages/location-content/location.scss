@@ -1,0 +1,28 @@
+.location-content {
+    padding: 60px 0;
+    h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    ul {
+        font-size: 16px; font-weight: 400; margin: 0; padding: 0 0 0 15px;
+
+        li + li {margin-top: 20px;}
+
+        ul {
+            list-style: none;
+            li + li {margin-top: 5px;}
+        }
+    }
+
+    .page-title ~ .page-title {margin-top: 50px !important;}
+
+    @media screen and (max-width: 812px) {
+        h3 {font-size: 20px;}
+
+        ul li {font-size: 14px;}
+    }
+}

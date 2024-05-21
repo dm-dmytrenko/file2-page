@@ -1,0 +1,45 @@
+.banner-holder {
+    position: relative; padding: 300px 0 290px; background-color: var(--primary); overflow: hidden;
+
+    .graph-icon-1 {position: absolute; left: 20px; top: 20px; width: 184px; height: 184px; z-index: 1; background-repeat: contain;}
+    .graph-icon-2 {position: absolute; left: -20px; bottom: -40px; width: 184px; height: 184px; z-index: 1; background-repeat: contain;}
+    .graph-icon-3 {position: absolute; right: 100px; top: 150px; width: 100px; height: 100px; z-index: 1; background-repeat: contain;}
+
+    .banner-layer {position: absolute; top: 0; right: -20%; width: 60%; height: 100%; background-color: var(--secondary); transform: skewX(-20deg);}
+
+    .content-holder {width: 40%; text-align: center; color: var(--white);}
+    .content-holder h1 {font-size: 144.357px; font-style: normal; font-weight: 600; line-height: 1; text-transform: uppercase; display: flex; justify-content: center; margin: 0;}
+    .content-holder h1 span {margin-top: 40px; margin-left: -20px; display: inline-block;}
+    .content-holder p {font-size: 36px; color: var(--white); font-style: normal; font-weight: 600; margin: 10px 0 0; text-transform: uppercase;}
+
+    .hero-content-img {position: absolute; right: 0; bottom: 0px; z-index: 1; width: 60%; height: 100%; background-size: contain; background-position: center bottom 80px; background-repeat: no-repeat;}
+
+    @media screen and (min-width: 1700px) {
+        .hero-content-img {width: 40%;}
+    }
+
+    @media screen and (max-width: 1280px){
+        padding: 260px 0 200px;
+
+        .content-holder h1 {font-size: 100px;}
+        .content-holder p {font-size: 30px;}
+    }
+    @media screen and (max-width: 812px){
+        padding: 200px 0 200px;
+
+        .content-holder h1 {font-size: 80px;}
+        .content-holder h1 span {margin-top: 20px; margin-left: -10px;}
+        .content-holder p {font-size: 24px;}
+    }
+    @media screen and (max-width: 676px){
+        padding: 150px 0 400px;
+
+        .content-holder {width: 100%; z-index: 2; position: relative;}
+        .banner-layer {width: 80%; right: -40%;}
+        .hero-content-img {background-position: center bottom 40px; width: 100%;}
+    }
+    @media screen and (max-width: 414px){
+        padding: 150px 0 360px;
+    }
+
+}   

@@ -1,0 +1,53 @@
+.header-after-login {
+    padding: 40px 0 26px; background: var(--Linear, linear-gradient(91deg, #DD6080 4.08%, #F7A55C 106.84%)); color: #fff;
+    .header-row {display: flex; align-items: center; justify-content: space-between;}
+
+    .logo {
+        display: flex; font-size: 34px; text-transform: uppercase; font-weight: 600; color: #fff;
+        span {margin-top: 5px; display: inline-block;}
+    }
+
+    .page-title {font-size: 24px; margin: 0; text-transform: uppercase;}
+
+    .page-nav {
+        a {padding: 12px 20px; color: var(--black); border: 1px solid var(--white); font-size: 16px; background-color: var(--white); font-weight: 500; min-width: 120px; display: inline-flex; align-items: center; justify-content: center;}
+        a.active,
+        a:hover {background-color: #F4D35E; border-color: #F4D35E;}
+    }
+
+    @media screen and (max-width: 767px) {
+        padding: 20px 0;   
+
+        .header-row {flex-wrap: wrap;} 
+
+        .logo {order: 1; font-size: 20px;}
+        .user-icon {order: 2;}
+        .page-title {font-size: 20px; order: 3; margin-top: 15px; font-size: 16px; width: 100%; text-align: center;}
+        .page-nav {
+            order: 3; width: 100%; display: flex; align-items: center; margin-top: 15px;
+            a {min-width: auto; flex: 1; padding: 10px; font-size: 13px;}
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .page-nav {
+            a {padding: 10px 3px; font-size: 12px;}
+        }
+    }
+}
+
+.dropdown-profile {
+    .btn {padding: 0; border: 0;}
+    .btn::after {display: none;}
+
+    .dropdown-menu {
+        border: 0; border-radius: 2px; box-shadow: 0px 2px 12px rgba(0,0,0,.14); margin-top: 10px;
+
+        a {font-size: 14px; padding: 7px 14px; display: flex; align-items: center;}
+        a:hover,
+        a:focus {background-color: var(--secondary); color: var(--white);}
+    }
+}
+
+.fill-white {
+    color: #fff;
+}

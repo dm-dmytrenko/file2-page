@@ -1,0 +1,57 @@
+.membership-option {
+    padding: 60px 0 40px; background-color: #FAFAFA;
+
+    .font-podka  {font-size: 32px; margin: 0 0 14px; color: #000;}
+    h5 {font-size: 20px; color: #4F4F4F; font-weight: 400; margin: 0 0 44px;}
+
+    .packge-row {
+        position: relative;
+        margin: 0 100px;
+        border-top: 6px solid #DD6080;
+        background: #FFF;
+        padding: 40px 0;
+        // display: grid; grid-template-columns: repeat(5, 1fr);
+        margin-bottom: 40px;
+
+        .package-card {padding: 19px 27px; text-align: center; min-width: 240px;}
+
+        .package-name {font-size: 20px; color: #2F3044; margin: 0 0 24px;}
+        .package-price {font-size: 36px; font-weight: 600; color: var(--secondary);}
+        .package-discount {font-size: 20px; font-weight: 600; text-decoration: line-through; color: #2F3044; margin: 0 0 24px;}
+        .package-limit {font-size: 16px; color: #4E4E51; margin: 0 0 26px;}
+
+        sup {font-size: 14px; font-weight: 500;}
+    }
+
+    .slick-slide:not(:last-child) .package-card {border-right: 1px solid #BCBCBC;}
+
+    .discount-icon {position: absolute; left: -60px; top: 10px;}
+
+    .slick-dots {
+        bottom: -35px;
+        li {
+            margin: 0;
+            button {
+                padding: 0; width: 8px; height: 8px; border-radius: 100%; background-color: var(--black); border: 2px solid var(--black);
+                &::before {display: none;}
+            }
+            &.slick-active {
+                button {background-color: transparent; width: 11px; height: 11px;}
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 676px) {
+        .font-podka {font-size: 22px;}
+        h5 {font-size: 16px;}
+
+        .packge-row {margin: 0 20px 50px 20px;}
+
+        .discount-icon {left: 0;}
+
+        .slick-slide:not(:last-child) .package-card {border-right: 0;}
+        
+        .btn {font-weight: 400; font-size: 15px;}
+    }
+}

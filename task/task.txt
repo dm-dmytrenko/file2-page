@@ -1,0 +1,11 @@
+img 1-2: 
+These 2 pages just need edits at top of page circled in green. So it needs to be updated with these edits.
+
+img 3-4-5:
+Then the next pics are of frames that need to be created to work with the links on above 2 pages. 
+* - create it
+E - edit it
+
+img 4-5:
+The contact form needs that account button added (circled in green). 
+When you click on it it will go to 3 frames (Profile, Transactions, Subscriptions).

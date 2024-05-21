@@ -1,0 +1,39 @@
+.volunteer-section {
+    padding: 56px 0; background-size: cover; background-repeat: no-repeat;
+
+    .content-box {
+        padding: 32px 50px 50px 70px;   
+        border-radius: 17px;
+        background: linear-gradient(180deg, rgba(255, 225, 233, 0.85) 0%, rgba(255, 225, 232, 0.85) 50%, rgba(255, 216, 226, 0.85) 100%);
+
+        .gradient-box-title {max-width: 60%; margin: 0 auto 30px; text-align: center; line-height: 1.3;}
+
+        ul {margin: 50px 0 0; padding: 0 0 0 20px; max-width: 60%;}
+        p {margin: 0 0 5px;}
+
+        p,li {color: #4F4F4F; font-size: 20px; font-style: normal; font-weight: 400;}
+    }
+
+    @media screen and (max-width: 1280px) {
+        .content-box {
+            padding: 44px;
+            p,li {font-size: 15px;}
+
+            ul {margin: 30px 0 0; max-width: 100%;}
+            
+            .gradient-box-title {font-size: 20px; max-width: 44%;}
+        }
+
+    }
+    @media screen and (max-width: 991px) {
+        .content-box {
+            .gradient-box-title {max-width: 100%;}
+        }
+    }  
+    @media screen and (max-width: 676px) {
+        .content-box {
+            padding: 25px;
+            .gradient-box-title {font-size: 16px;}
+        }
+    }   
+}

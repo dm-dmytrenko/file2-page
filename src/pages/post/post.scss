@@ -1,0 +1,48 @@
+.ride-page {
+    padding: 0 0 30px; background-color: #FCFCFC;
+    
+    .button-holder {margin: 30px 0 40px;}
+    .btn-secondary {border-radius: 0; font-weight: 500; width: 44%; font-size: 16px;}
+
+    .grid-row {display: grid; grid-template-columns: 1fr 270px; grid-gap: 75px;}
+
+    .add-post {
+        cursor: pointer; background: rgba(244, 211, 94, 0.67); display: flex; align-items: center; justify-content: center; padding: 15px;
+    }
+
+    .filter-heading {font-size: 16px; font-weight: 500; margin: 0;}
+
+    .search-filter {
+        display: grid; grid-template-columns:  repeat(3, 1fr) 200px; grid-gap: 25px;
+
+        .form-control {
+            border-radius: 12px; border-color: #ededed; filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.05)); box-shadow: none !important;
+            &::placeholder {color: #98A8B7;}
+        }
+
+        .btn {border-radius: 0; font-size: 16px; font-weight: 500;}
+    }
+
+    .row-wrapper {
+        display: flex !important;
+    }
+
+    .slick-initialized {display: grid; margin-bottom: 60px; padding-bottom: 40px;}
+
+    .slick-arrow {    
+        width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; position: absolute; left: calc(50% - 50px); top: auto; bottom: 0; transform: none; filter: drop-shadow(4px 1px 4px rgba(0, 0, 0, 0.25)) !important; background-color: #fff !important; border-radius: 100%; border: 1px solid transparent;
+        &::before {display: none;}
+        &:hover {border-color: var(--primary);}
+
+        &.slick-next {left: auto; right: calc(50% - 50px);}
+    }
+
+    @media screen and (max-width: 1280px) {
+        .grid-row {grid-gap: 30px;}
+    }
+    @media screen and (max-width: 767px) {
+        .grid-row { grid-template-columns: auto;}
+
+        .w-50 {width: 100% !important;}
+    }
+}

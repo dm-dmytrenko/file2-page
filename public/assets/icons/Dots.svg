@@ -1,0 +1,56 @@
+<svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3">
+<g clip-path="url(#clip0_1_744)">
+<circle cx="14.5" cy="2" r="2" fill="white"/>
+<circle cx="30.5" cy="2" r="2" fill="white"/>
+<circle cx="46.5" cy="2" r="2" fill="white"/>
+<circle cx="62.5" cy="2" r="2" fill="white"/>
+<circle cx="78.5" cy="2" r="2" fill="white"/>
+</g>
+<g clip-path="url(#clip1_1_744)">
+<circle cx="14.5" cy="18" r="2" fill="white"/>
+<circle cx="30.5" cy="18" r="2" fill="white"/>
+<circle cx="46.5" cy="18" r="2" fill="white"/>
+<circle cx="62.5" cy="18" r="2" fill="white"/>
+<circle cx="78.5" cy="18" r="2" fill="white"/>
+</g>
+<g clip-path="url(#clip2_1_744)">
+<circle cx="14.5" cy="34" r="2" fill="white"/>
+<circle cx="30.5" cy="34" r="2" fill="white"/>
+<circle cx="46.5" cy="34" r="2" fill="white"/>
+<circle cx="62.5" cy="34" r="2" fill="white"/>
+<circle cx="78.5" cy="34" r="2" fill="white"/>
+</g>
+<g clip-path="url(#clip3_1_744)">
+<circle cx="14.5" cy="50" r="2" fill="white"/>
+<circle cx="30.5" cy="50" r="2" fill="white"/>
+<circle cx="46.5" cy="50" r="2" fill="white"/>
+<circle cx="62.5" cy="50" r="2" fill="white"/>
+<circle cx="78.5" cy="50" r="2" fill="white"/>
+</g>
+<g clip-path="url(#clip4_1_744)">
+<circle cx="14.5" cy="66" r="2" fill="white"/>
+<circle cx="30.5" cy="66" r="2" fill="white"/>
+<circle cx="46.5" cy="66" r="2" fill="white"/>
+<circle cx="62.5" cy="66" r="2" fill="white"/>
+<circle cx="78.5" cy="66" r="2" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_744">
+<rect width="68" height="4" fill="white" transform="translate(12.5)"/>
+</clipPath>
+<clipPath id="clip1_1_744">
+<rect width="68" height="4" fill="white" transform="translate(12.5 16)"/>
+</clipPath>
+<clipPath id="clip2_1_744">
+<rect width="68" height="4" fill="white" transform="translate(12.5 32)"/>
+</clipPath>
+<clipPath id="clip3_1_744">
+<rect width="68" height="4" fill="white" transform="translate(12.5 48)"/>
+</clipPath>
+<clipPath id="clip4_1_744">
+<rect width="68" height="4" fill="white" transform="translate(12.5 64)"/>
+</clipPath>
+</defs>
+</svg>
